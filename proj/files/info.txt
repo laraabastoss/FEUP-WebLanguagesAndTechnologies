@@ -1,0 +1,2 @@
+This folder, will keep all the files, the users add to the tickets. 
+The file name will alwaays be the id of the respective ticket.

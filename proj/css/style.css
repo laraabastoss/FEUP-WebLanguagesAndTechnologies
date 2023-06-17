@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Mulish&family=Ruda:wght@400;600;700;800&display=swap');
+
+
+/*navbar*/
+
+.navbar h1{
+    text-align: center;
+}
+span a {
+    display: inline-block;
+    position: relative;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #003E29;
+    text-decoration: none;
+}
+span + span {
+    margin-left: 10px;
+}
+
+span + a{
+    margin-left: 10px;
+}
+
+i+span{
+    margin-left: 10px;
+}
+
+.update span + span{
+    margin-left: 0px;
+}
+.navbar a,i{
+    color: #003E29;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6em;
+    margin: 0 auto;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#home a:after,#faq a:after, #new a:after, #notifications a:after, #my-departments a:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #003E29;
+    transform-origin: bottom center;
+    transition: transform 0.25s ease-out;
+  }
+  
+#home a:hover::after, #faq a:hover::after, #new a:hover::after, #notifications a:hover::after, #my-departments a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+}
+/*footer*/
+hr.divider {
+    width: 95%;
+    border: none;
+    border-top: 1px solid #003E29;
+    margin-top: 0;
+  }
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 3em;
+    line-height: 3em;
+    color:#003E29;
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+.footer p {
+    text-align: left;
+}
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footer .icons a{
+    color: #003E29;
+    margin-left: 10px;
+}
+
+
+body,html {
+    margin: 0 auto;
+    padding-left: 2;
+    padding-right: 2;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.all_footer{
+    margin-top: auto;
+}
+h1{
+    letter-spacing: .3em;
+    color: #003E29;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-left:2em;
+    margin-right:2em;
+   
+}
+
+
+
+ #search{
+    background: rgba(217, 217, 217, 0.4);
+    border: none;
+    border-radius: 15px;
+    width: 75%;
+    height:30px;
+    padding-left: 2em;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+
+
+#profile-picture a, #profile-picture{
+    width: 40px;
+    height: 40px;
+}
+
+
+#profile-picture a img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.2s ease-in-out;
+    z-index: -1;
+    position: relative;
+}
+
+#profile-picture {
+    margin-left: 10px;
+}
+
+#profile-picture a img:hover{
+    transform: scale(1.15);
+  transition: transform 0.2s ease-in-out; 
+}
+
+#hamburger, .hamburger {
+    display: none;
+  }
+
+  #navbar-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    width: 100%;
+  }
+
+  #sideSection{
+    display: none;
+  }
+
+p{
+  font-family: 'Mulish';
+  text-align: center;
+}
+#accessDenied{
+    text-align: center;
+    font-family: 'Mulish';
+}
+
+
+#accessDenied a{
+    color:#003E29;
+}
+
+.error{
+    text-align: center;
+}
+
+.error-messages {
+    color: #003E29;
+    padding: 10px;
+    margin-top: 0.5em;
+    font-family: 'Mulish';
+}
+
+
+  

@@ -1,0 +1,57 @@
+
+.authentication{
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    
+}
+.authentication .name{
+    color:#003E29;
+}
+input {
+    background-color : rgba(217, 217, 217, 0.4);
+    border-radius: 15px;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 2em;
+    border-style: none;
+    padding-left: 2em;
+    color: #003E29;
+
+}
+
+input::placeholder {
+    color: #467061;
+    font-family:'Mulish', sans-serif;
+}
+ 
+button{
+    width: 130px;
+    height: 30px;
+    background: #003E29;
+    border-radius: 8px;
+    color:white;
+    letter-spacing: .3em;
+    border: none;
+}
+
+.line{
+    display: flex;
+    column-gap: 0.2em;
+    text-align: center;
+    justify-content: center;
+ }
+
+ #signup-link, #login-link{
+    text-decoration: underline;
+    color:#003E29;
+ }
+
+
+
+form > button{
+    margin-top: 2em;
+}
+
+#login-link:hover, #signup-link:hover{
+    cursor: pointer;
+}

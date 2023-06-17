@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Mulish&family=Ruda:wght@400;600;700;800&display=swap');
+
+ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.title{
+  display: block;
+}
+
+#user-list-admin li, #user-list-agent li, #department-list li{
+    display: flex;
+    align-items: center; 
+    margin-bottom: 5px;
+    padding-left: 1em;
+}
+
+#user-list-admin li label, #user-list-agent li label, #department-list li label{
+    margin: auto 0;
+    margin-left: 10px;
+}
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.adminPanelContainer{
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:  #003E29 1px solid;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-bottom:3em;
+    padding-top:2em;
+    padding-bottom:2em;
+}
+
+h2{
+    color: #003E29;
+    font-size: 1.2em;
+    justify-self: center;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    color:#003E29;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    width: 80%;
+    text-align: center;
+  }
+
+ .section-title:hover{
+    background-color: #f9f9f9;
+ }
+
+  #add-department, #upgrade-client, #assign-agent, #agent-stats{
+    display: none;
+    width: 80%;
+  }
+
+  #search-user-admin, #search-user-agent{
+    background: rgba(217, 217, 217, 0.4);
+    border: none;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  form{
+    background-color: white;
+  }
+
+  .selected-user, .selected-department {
+    background-color: #f0f0f0;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+
+  #selected-users-text-admin,
+  #selected-users-text-agent, #selected-departments-text {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  label{
+    color: black;
+  }
+
+  .agent-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .agent-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  tbody td:first-child {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #agent-stats{
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  thead tr{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+  
+  thead tr th {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px;
+  }
+  
+  tbody td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  #suggested-faqs{
+    width: 70%;
+  }
+   .title{
+      font-size: 1.0em;
+      justify-self: center;
+      cursor: pointer;
+      font-weight: bolder;
+      margin-bottom: 10px;
+      background-color: #fff;
+      padding:10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+      color: black;
+      margin-bottom: 1em;
+      margin-top: 1em;
+      text-align: center;
+  }
+
+ .description{
+  display:none;
+  width: 100%;
+ }
+
+ textarea{
+  width: 100%;
+  border: none;
+  background-color : rgba(217, 217, 217, 0.4);
+
+}
+
+ .submit-suggested-faqs{
+    margin-right: 3em;
+ }
+
+ li label{
+  padding: 0;
+ }
+
+ thead tr th:hover{
+  cursor: pointer;
+ }
+
+ .sort-icon {
+  display: none;
+  margin-left: 5px;
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Mulish&family=Ruda:wght@400;600;700;800&display=swap');
+
+.frequently_asked_questions{
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: #003E29 1px solid;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  margin-bottom: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.faqs{
+  font-family: 'Mulish', sans-serif;
+  width: 80%;
+}
+
+.title {
+    justify-self: center;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    color:#003E29;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+
+ 
+  }
+
+  .title:hover {
+    background-color: #f9f9f9;
+    width: 100%;
+  }
+
+  .faq .description {
+    display: none;
+    margin-left: 0px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0);
+    font-weight:lighter; 
+  
+  }
+
+
+textarea{
+    width: 100%;
+    height: 100px;
+    border: none;
+    border-radius: 15px;
+    background: white;
+    resize: none;
+    border:  solid;
+    border-color:  rgba(217, 217, 217,1);
+    margin-bottom: 2em;
+    background-color : rgba(217, 217, 217, 0.4);
+    border-style: none;
+    padding-left: 1em;
+   
+}
+
+textarea::placeholder {
+  font-family:'Mulish', sans-serif;
+}
+
+button{
+  width: 143px;
+  height: 31px;
+  background: #003E29;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  float: right;
+  margin-bottom: 1em;
+}
+
+#dropdown .faqs{
+  width:100%;
+}
+
+

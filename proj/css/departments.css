@@ -1,0 +1,79 @@
+#departments ul{
+    list-style:none;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-left:2em;
+    margin-right:2em;
+    padding: 0;
+    gap:1em;
+    margin-bottom: 2em;
+ }
+
+
+.department{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12em;
+    width: 12em;
+    background-color:#003E29 ;
+    color:white;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    border-radius: 20%;
+    transition: transform 0.4 ease-out;
+    flex-shrink: 0;
+    display: none;
+}
+
+.department:hover{
+    transform: scale(1.1,1.1);
+}
+
+.department:nth-child(even) {
+    background-color: #87B97E;
+}
+
+  .department:nth-child(odd) {
+    background-color: #436446;
+  }
+
+.department a{
+    text-decoration:none;
+    color: white;
+}
+
+.carousel button{
+    background: none;
+    color:#003E29;
+    font-size: 1rem;
+    padding: 0;
+    width:5%;
+    margin: top 3em;
+}
+
+.carousel button:hover {
+    background-color: rgba(234, 232, 232, 0.638);
+}
+
+
+  
+.current-department
+ {
+    display:flex; 
+       
+}
+
+.carousel .none{
+    visibility: hidden;
+}
+
+
+
+.next_mobile{
+    display: none;
+}
+ 
+
+
