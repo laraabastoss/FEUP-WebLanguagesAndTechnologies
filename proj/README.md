@@ -1,5 +1,4 @@
-# Ticket Management Project  
-**LTW- project-ltw06g06**
+# Ticket Management Project  (Grade: 18.1/20)
 
 ## Description
 
