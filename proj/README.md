@@ -2,7 +2,7 @@
 
 ## Description
 
-This website manages trouble tickets related to different technology topics, enabling users to submit, track, and resolve tickets. Furthermore, the tickets are divided into departments and each department has a group of specilized agents that can help solve the tickets.
+This website manages trouble tickets related to different technology topics, enabling users to submit, track, and resolve tickets. Furthermore, the tickets are divided into departments and each department has a group of specilized agents that can help solve the tickets. The website is protected against SQL Injection, XSS and CSRF attacks.
 
 ## Roles
 
