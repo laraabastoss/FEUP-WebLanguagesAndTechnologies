@@ -2,7 +2,6 @@
 year 2, semestre 2
 ## Final Grade: 18/20
 ### Project - Ticket Managing Website (Grade: 18.1/20)
-Development of a ticket managing website, with 3 different types of roles (client, agent, admin). The website is protected against SQL Injection, XSS and CSRF attacks.
 
 <img width="1406" alt="Screenshot 2023-05-21 at 21 56 48" src="https://github.com/FEUP-LTW-2023/project-ltw06g06/assets/92671491/861797de-543b-4978-ae97-570eaa7e2c99">
 
